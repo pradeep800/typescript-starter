@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "this is simple distributed kv database",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "dev": "concurrently \"npx tsc --watch\" \"nodemon ./build/index.js\"",
     "build": "npx tsc",
@@ -17,6 +17,7 @@
     "dotenv": "^16.3.1",
     "nodemon": "^3.0.2",
     "ts-node": "^10.9.1",
+    "tsx": "^4.6.2",
     "typescript": "^5.3.2"
   }
 }
